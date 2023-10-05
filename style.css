@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Center the content */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #9da8b263;
+}
+/* Style the labels and inputs */
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+input,
+button {
+  margin: 5px;
+}
+/* Style the submit button */
+#submitButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+/* Style the temperature label */
+#tempLabel {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+/* Apply styles to the radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+/* Apply styles to the input text box */
+#textBox {
+  width: 80px;
+  padding: 5px;
+}
+/* Style the radio button labels */
+label[for="cButton"],
+label[for="fButton"] {
+  font-weight: normal;
+  cursor: pointer;
+}
+/* Style the radio button labels when selected */
+input[type="radio"]:checked + label {
+  font-weight: bold;
+  color: #007bff;
+}
